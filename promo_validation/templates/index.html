@@ -1,0 +1,26 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Promo Code</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Promo Code</h1>
+  <form id="myForm" method="POST" action="{% url 'index_view' %}">
+  {% csrf_token %}
+  <input type="text" id="myTextField" name="promo_code" placeholder="Enter your promo code">
+  <button type="submit">Submit</button>
+</form>
+
+{% if promo_code %}
+  {% if is_valid %}
+    <p class="valid-message">Promo code "{{ promo_code }}" is valid!</p>
+  {% else %}
+    <p class="error-message">Promo code "{{ promo_code }}" is invalid.</p>
+  {% endif %}
+{% endif %}
+
+</body>
+</html>
+-->
