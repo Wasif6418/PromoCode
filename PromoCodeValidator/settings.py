@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'promo_validation'
+    'promo_validation',
+    'suggestions',
 ]
 """
 REST_FRAMEWORK = {

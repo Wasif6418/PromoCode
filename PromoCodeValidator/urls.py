@@ -20,5 +20,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('promo_validation.urls')),
+    path('', include('suggestions.urls')),
+
+
 ]
 
